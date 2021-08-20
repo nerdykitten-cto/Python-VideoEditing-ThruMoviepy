@@ -17,8 +17,10 @@ compression = "slow"
 
 # Music and Video Files
 # Music Side
-musicAfile = 'testMusicOG.mp3'
-loadAtitle = 'TestVideoOG.mp4'
+# Here you must Name your music file here
+musicAfile = 'NameYourMusicFileHere.mp3'
+# Here you must name the Video File you wish to edit
+loadAtitle = 'NameYourLoadingTitleHere.mp4'
 saveAtitle = 'AudioEdited.mp4'
 # Text Side
 loadTtitle = saveAtitle
@@ -26,7 +28,8 @@ saveTtitle = 'AudioandTextEdited.mp4'
 # Cutting Side
 loadVctitle = saveTtitle
 # Final Side
-savetitleEnd = 'Copyrighted.mp4'
+# Here you must name the file you wish to save
+savetitleEnd = 'NameYourSavingTitleHere.mp4'
 
 # modify the Start and End times for your subclips
 cuts = [00.00, 13.00]
